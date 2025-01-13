@@ -1,0 +1,83 @@
+@font-face {
+    font-family: custom-font;
+    src: url(./font/SuperBoys-vmW67.ttf);
+    font-style: normal; 
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.upper-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: custom-font;
+}
+
+.upper-div .high-score {
+    margin-left: 10px;
+}
+
+.upper-div .made-by {
+    margin-right: 10px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: custom-font;
+}
+
+.welcome-sign h1 {
+    font-size: 400%;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+
+.username label {
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.username input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    font-family: custom-font;
+    outline: none;
+}
+
+.username input:focus-visible {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #000;
+    outline: none;
+    font-family: custom-font;
+}
+
+.username {
+    margin: 0 0 100px;
+}
+
+.main-div .button {
+    outline: none;
+    border: none;
+    padding: 20px 30px;
+    font-family: custom-font;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.main-div .start-game:active {
+    transform: scale(0.9);
+}
