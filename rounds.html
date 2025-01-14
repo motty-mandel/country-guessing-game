@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Game</title>
     <link rel="stylesheet" href="rounds.css">
 </head>
+
 <body>
 
+
+    <div id="overlay" class="overlay"></div>
+
     <div class="score">
-        <h1 id="score-card"></h1>
+        <h1 id="score-card">Score: 0</h1>
     </div>
-    <div class="question">
+
+    <div id="question" class="question">
         <h1 id="hint"></h1>
         <label for="answer">Answer:</label>
         <input type="text" id="answer" name="answer" placeholder="answer">
         <button type="submit">Check Answer</button>
     </div>
 
+    <div class="username-container">
+        <div id="username" class="username">
+            <h1>Enter your username <br>
+                to save your score!</h1>
+            <label for="username"></label>
+            <input type="text" id="name" name="username" placeholder="username">
+            <button type="button">Skip</button>
+        </div>
+    </div>
+
     <script src="questions.js"></script>
 </body>
+
 </html>

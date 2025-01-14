@@ -2,6 +2,26 @@ let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
 
+function getName() {
+    document.getElementById('username').style.display = "flex";
+    document.getElementById('overlay').style.display = "block";
+    document.getElementById('question').style.display = "none";
+
+    const name = document.getElementById('name');
+
+    document.querySelector('button[type="button"]').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+
+    document.addEventListener('keypress', function() {
+        if (name.value != "") {
+            document.querySelector('button[type="button"]').innerHTML = "Enter";
+        } else {
+            document.querySelector('button[type="button"]').innerHTML = "Skip";
+        }
+    })
+}
+
 
 // Function to fetch and load the questions
 async function loadQuestions() {
@@ -50,7 +70,7 @@ function checkAnswer() {
 
         if (currentQuestionIndex >= questions.length - 1) {
             alert('Correct! Congratulations on finishing the game!');
-            window.location.href = 'index.html';
+            getName();
         } else {
             alert('Correct! Next question!');
             currentQuestionIndex++;
@@ -58,7 +78,9 @@ function checkAnswer() {
             showCurrentHint();            
         }
     } else {
+        if (score > 0) {
         score--;
+        }
         scoreCard.innerHTML = `Score: ${score}`;
         alert('Wrong answer! Try again!');
     }
