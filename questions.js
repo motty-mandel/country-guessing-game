@@ -2,25 +2,18 @@ let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
 
-function getName() {
-    document.getElementById('username').style.display = "flex";
-    document.getElementById('overlay').style.display = "block";
-    document.getElementById('question').style.display = "none";
+// function getName() {
+//     document.getElementById('username').style.display = "flex";
+//     document.getElementById('overlay').style.display = "block";
+//     document.getElementById('question').style.display = "none";
 
-    const name = document.getElementById('name');
+//     const name = document.getElementById('name');
 
-    document.querySelector('button[type="button"]').addEventListener('click', function() {
-        window.location.href = 'index.html';
-    });
+//     document.querySelector('button[type="button"]').addEventListener('click', function() {
+//         console.log([name.value, score]);
+//     });
 
-    document.addEventListener('keypress', function() {
-        if (name.value != "") {
-            document.querySelector('button[type="button"]').innerHTML = "Enter";
-        } else {
-            document.querySelector('button[type="button"]').innerHTML = "Skip";
-        }
-    })
-}
+// }            getName();
 
 
 // Function to fetch and load the questions
@@ -70,7 +63,7 @@ function checkAnswer() {
 
         if (currentQuestionIndex >= questions.length - 1) {
             alert('Correct! Congratulations on finishing the game!');
-            getName();
+
         } else {
             alert('Correct! Next question!');
             currentQuestionIndex++;
