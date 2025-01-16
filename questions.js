@@ -2,18 +2,33 @@ let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
 
-// function getName() {
-//     document.getElementById('username').style.display = "flex";
-//     document.getElementById('overlay').style.display = "block";
-//     document.getElementById('question').style.display = "none";
+function getName() {
+    document.getElementById('username').style.display = "flex";
+    document.getElementById('overlay').style.display = "block";
+    document.getElementById('question').style.display = "none";
 
-//     const name = document.getElementById('name');
+    const name = document.getElementById('name');
 
-//     document.querySelector('button[type="button"]').addEventListener('click', function() {
-//         console.log([name.value, score]);
-//     });
+    document.getElementById('enterName').addEventListener('click', function () {
 
-// }            getName();
+        if (name.value === "") {
+            alert('Please enter in a name!');
+            return;
+        } else {
+            const storedData = JSON.parse(localStorage.getItem('userData')) || [];
+
+            storedData.push(`${name.value}: ${score}`);
+
+            localStorage.setItem('userData', JSON.stringify(storedData));
+
+            window.location.href = 'index.html';
+        }
+    });
+
+    document.getElementById('skipName').addEventListener('click', function () {
+        window.location.href = 'index.html';
+    })
+}
 
 
 // Function to fetch and load the questions
@@ -53,9 +68,6 @@ function checkAnswer() {
     const answer = document.getElementById('answer').value.trim().toLowerCase();
     const currentQuestion = questions[currentQuestionIndex];
 
-    console.log(`User answer: ${answer}`);
-    console.log(`Correct answer: ${currentQuestion.answer.toLowerCase()}`);
-
 
     if (answer === currentQuestion.answer.toLowerCase()) {
         score++;
@@ -63,19 +75,20 @@ function checkAnswer() {
 
         if (currentQuestionIndex >= questions.length - 1) {
             alert('Correct! Congratulations on finishing the game!');
-
+            getName();
         } else {
             alert('Correct! Next question!');
             currentQuestionIndex++;
             document.getElementById('answer').value = '';
-            showCurrentHint();            
+            showCurrentHint();
         }
     } else {
         if (score > 0) {
-        score--;
+            score--;
         }
         scoreCard.innerHTML = `Score: ${score}`;
         alert('Wrong answer! Try again!');
+        document.getElementById('answer').value = '';
     }
 }
 
