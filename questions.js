@@ -1,6 +1,8 @@
 let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
+const correct = document.getElementById('correct');
+const incorrect = document.getElementById('incorrect');
 
 function getName() {
     document.getElementById('username').style.display = "flex";
@@ -74,10 +76,10 @@ function checkAnswer() {
         scoreCard.innerHTML = `Score: ${score}`;
 
         if (currentQuestionIndex >= questions.length - 1) {
-            alert('Correct! Congratulations on finishing the game!');
             getName();
         } else {
-            alert('Correct! Next question!');
+            incorrect.style.display = 'none';
+            correct.style.display = 'block';
             currentQuestionIndex++;
             document.getElementById('answer').value = '';
             showCurrentHint();
@@ -86,8 +88,9 @@ function checkAnswer() {
         if (score > 0) {
             score--;
         }
+        correct.style.display = 'none';
+        incorrect.style.display = 'block';
         scoreCard.innerHTML = `Score: ${score}`;
-        alert('Wrong answer! Try again!');
         document.getElementById('answer').value = '';
     }
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Game</title>
     <link rel="stylesheet" href="rounds.css">
+    <link rel="stylesheet" href="roundsMobile.css">
 </head>
 
 <body>
@@ -22,11 +23,15 @@
         <label for="answer">Answer:</label>
         <input type="text" id="answer" name="answer" placeholder="answer">
         <button type="submit">Check Answer</button>
+        <h1 class="correct" id="correct">Nice! Next one!</h1>
+        <h1 class="incorrect" id="incorrect">Uh-oh. Try again.</h1>
     </div>
 
     <div class="username-container">
         <div id="username" class="username">
-            <h1>Enter your username <br>
+            <h1>Congratulations on  <br>
+                finishing the game! <br>
+                Enter your username <br>
                 to save your score!</h1>
             <label for="username"></label>
             <input type="text" id="name" name="username" placeholder="username">
