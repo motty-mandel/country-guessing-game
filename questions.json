@@ -6,5 +6,45 @@
     {
         "hint": "I - L",
         "answer": "israel"
+    },
+    {
+        "hint": "C - A",
+        "answer": "canada"
+    },
+    {
+        "hint": "D - K",
+        "answer": "denmark"
+    },
+    {
+        "hint": "E - T",
+        "answer": "egypt"
+    },
+    {
+        "hint": "F - E",
+        "answer": "france"
+    },
+    {
+        "hint": "G - Y",
+        "answer": "germany"
+    },
+    {
+        "hint": "I - A",
+        "answer": "india"
+    },
+    {
+        "hint": "J - A",
+        "answer": "jamaica"
+    },
+    {
+        "hint": "M - O",
+        "answer": "mexico"
+    },
+    {
+        "hint": "P - D",
+        "answer": "poland"
+    },
+    {
+        "hint": "R - A",
+        "answer": "russia"
     }
 ]
