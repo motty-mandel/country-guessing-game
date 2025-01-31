@@ -27,10 +27,17 @@
         </div>
 
         <div class="start-game">
-            <a href="/rounds.html" class="button">Start Game</a>
+            <button id="rounds5" class="button" onclick="startTimer5()" value="5">5 rounds</button>
+            <button id="rounds10" class="button" onclick="startTimer10()" value="10">10 rounds</button>
+            <button id="rounds15" class="button" onclick="startTimer15()" value="15">15 rounds</button>
         </div>
+
+        <!-- <div class="game-duration">
+            <input type="number" id="customDuration" min="15" max="300" value="60" placeholder="Game duration in seconds">
+        </div> -->
     </div>
 
     <script src="scores.js"></script>
+    <script src="country-dealer.js"></script>
 </body>
 </html>

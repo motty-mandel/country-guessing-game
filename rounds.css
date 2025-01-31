@@ -19,6 +19,10 @@ body {
     display: none;
 }
 
+.empty {
+    display: none;
+}
+
 .overlay {
     display: none;
     position: fixed;
@@ -36,6 +40,10 @@ body {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+
+    & > h1:last-of-type {
+        cursor: pointer;
+    }
 }
 
 .question {

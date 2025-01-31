@@ -1,50 +1,62 @@
 [
     {
         "hint": "S - N",
-        "answer": "sweden"
+        "answer": "sweden",
+        "hint2": ""
     },
     {
         "hint": "I - L",
-        "answer": "israel"
+        "answer": "israel",
+        "hint2": ["i", "s", "r", "a", "e", "l"]
     },
     {
         "hint": "C - A",
-        "answer": "canada"
+        "answer": "canada",
+        "hint2": ""
     },
     {
         "hint": "D - K",
-        "answer": "denmark"
+        "answer": "denmark",
+        "hint2": ""
     },
     {
         "hint": "E - T",
-        "answer": "egypt"
+        "answer": "egypt",
+        "hint2": ""
     },
     {
         "hint": "F - E",
-        "answer": "france"
+        "answer": "france",
+        "hint2": ""
     },
     {
         "hint": "G - Y",
-        "answer": "germany"
+        "answer": "germany",
+        "hint2": ""
     },
     {
         "hint": "I - A",
-        "answer": "india"
+        "answer": "india",
+        "hint2": ""
     },
     {
         "hint": "J - A",
-        "answer": "jamaica"
+        "answer": "jamaica",
+        "hint2": ""
     },
     {
         "hint": "M - O",
-        "answer": "mexico"
+        "answer": "mexico",
+        "hint2": ""
     },
     {
         "hint": "P - D",
-        "answer": "poland"
+        "answer": "poland",
+        "hint2": ""
     },
     {
         "hint": "R - A",
-        "answer": "russia"
+        "answer": "russia",
+        "hint2": ""
     }
 ]

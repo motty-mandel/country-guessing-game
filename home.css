@@ -32,40 +32,13 @@ body {
     font-family: custom-font;
 }
 
-.welcome-sign h1 {
+.main-div .welcome-sign h1 {
     font-size: 400%;
     font-weight: 100;
     margin-bottom: 100px;
 }
 
-.username label {
-    font-size: x-large;
-    margin-right: 20px;
-}
-
-.username input {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 3px solid black;
-    font-family: custom-font;
-    outline: none;
-}
-
-.username input:focus-visible {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 3px solid #000;
-    outline: none;
-    font-family: custom-font;
-}
-
-.username {
-    margin: 0 0 100px;
-}
-
-.main-div .button {
+.main-div .start-game .button {
     outline: none;
     border: none;
     padding: 20px 30px;
@@ -80,4 +53,8 @@ body {
 
 .main-div .start-game:active {
     transform: scale(0.9);
+}
+
+.main-div .game-duration {
+    margin-top: 100px;
 }
