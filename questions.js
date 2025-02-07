@@ -1,9 +1,13 @@
 let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
+let roundsLength = parseInt(localStorage.getItem('rounds'));
+
 const correct = document.getElementById('correct');
 const incorrect = document.getElementById('incorrect');
 const empty = document.getElementById('empty');
+const countdownClock = document.getElementById('countdownClock');
+
 
 // Function to fetch and load the questions
 async function loadQuestions() {
@@ -29,11 +33,11 @@ async function loadQuestions() {
 
 // Function to display the current hint
 function showCurrentHint() {
-    const roundsLength = parseInt(localStorage.getItem('rounds'));
 
-    if (currentQuestionIndex === roundsLength) {
-        return getName();
-    }
+countdownClock.innerHTML = `wrong answers: ${roundsLength}`;
+console.log(roundsLength)
+console.log(score)
+
 
     if (currentQuestionIndex < questions.length) {
         const currentQuestion = questions[currentQuestionIndex];
@@ -61,6 +65,7 @@ function checkAnswer() {
         if (currentQuestionIndex >= questions.length - 1) {
             getName();
         } else {
+            empty.style.display = 'none';
             incorrect.style.display = 'none';
             correct.style.display = 'block';
             currentQuestionIndex++;
@@ -68,6 +73,14 @@ function checkAnswer() {
             showCurrentHint();
         }
     } else {
+        if (roundsLength === 1) {
+            getName();
+        } else {
+            roundsLength -= 1;
+            countdownClock.innerHTML = `wrong answers:  ${roundsLength}`;
+        }
+
+        empty.style.display = 'none';
         correct.style.display = 'none';
         incorrect.style.display = 'block';
         document.getElementById('answer').value = '';
