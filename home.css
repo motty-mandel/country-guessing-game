@@ -51,10 +51,6 @@ body {
     color: #000;
 }
 
-.main-div .start-game:active {
+.main-div .start-game .button:active {
     transform: scale(0.9);
-}
-
-.main-div .game-duration {
-    margin-top: 100px;
 }

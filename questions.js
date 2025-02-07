@@ -50,7 +50,11 @@ function checkAnswer() {
     const answer = document.getElementById('answer').value.trim().toLowerCase();
     const currentQuestion = questions[currentQuestionIndex];
 
-    if (answer === currentQuestion.answer.toLowerCase()) {
+    if (answer === "") {
+        correct.style.display = 'none';
+        incorrect.style.display = 'none';
+        empty.style.display = 'block'
+    } else if (answer === currentQuestion.answer.toLowerCase()) {
         score += 5;
         scoreCard.innerHTML = `Score: ${score}`;
 
@@ -63,8 +67,14 @@ function checkAnswer() {
             document.getElementById('answer').value = '';
             showCurrentHint();
         }
-    } else if (answer === null || undefined) {
-        empty.style.display = 'block';
+    } else {
+        correct.style.display = 'none';
+        incorrect.style.display = 'block';
+        document.getElementById('answer').value = '';
+        if (score > 2) {
+            score -= 2;
+            scoreCard.innerHTML = `Score: ${score}`;
+        }
     }
 }
 

@@ -2,4 +2,8 @@
     .question input {
         font-size: 20px;
     }
+
+    .username-container input {
+        font-size: 20px;
+    }
 }
