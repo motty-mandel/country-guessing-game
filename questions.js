@@ -1,6 +1,6 @@
-let currentQuestionIndex = 0;
 let questions = [];
 let score = 0;
+let currentQuestion;
 let roundsLength = parseInt(localStorage.getItem('rounds'));
 
 const correct = document.getElementById('correct');
@@ -33,17 +33,15 @@ async function loadQuestions() {
 
 // Function to display the current hint
 function showCurrentHint() {
+    countdownClock.innerHTML = `wrong answers: ${roundsLength}`;
 
-countdownClock.innerHTML = `wrong answers: ${roundsLength}`;
-console.log(roundsLength)
-console.log(score)
-
-
-    if (currentQuestionIndex < questions.length) {
-        const currentQuestion = questions[currentQuestionIndex];
-        const hintElement = document.getElementById('hint');
-        hintElement.textContent = `Which country is this: ${currentQuestion.hint}?`;
+    if (questions.length === 0) {
+        getName();
     }
+
+    currentQuestion = questions[questions.length * Math.random() | 0];
+    const hintElement = document.getElementById('hint');
+    hintElement.textContent = `Which country is this: ${currentQuestion.hint}?`;
 
 }
 
@@ -52,7 +50,6 @@ function checkAnswer() {
 
     let scoreCard = document.getElementById('score-card');
     const answer = document.getElementById('answer').value.trim().toLowerCase();
-    const currentQuestion = questions[currentQuestionIndex];
 
     if (answer === "") {
         correct.style.display = 'none';
@@ -61,17 +58,18 @@ function checkAnswer() {
     } else if (answer === currentQuestion.answer.toLowerCase()) {
         score += 5;
         scoreCard.innerHTML = `Score: ${score}`;
-
-        if (currentQuestionIndex >= questions.length - 1) {
-            getName();
-        } else {
-            empty.style.display = 'none';
-            incorrect.style.display = 'none';
-            correct.style.display = 'block';
-            currentQuestionIndex++;
-            document.getElementById('answer').value = '';
-            showCurrentHint();
+        empty.style.display = 'none';
+        incorrect.style.display = 'none';
+        correct.style.display = 'block';
+        
+        // Remove the current question from the array
+        const index = questions.indexOf(currentQuestion);
+        if (index > -1) {
+            questions.splice(index, 1);
         }
+
+        document.getElementById('answer').value = '';
+        showCurrentHint();
     } else {
         if (roundsLength === 1) {
             getName();

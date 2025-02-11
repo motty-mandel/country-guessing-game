@@ -40,6 +40,7 @@ body {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    text-decoration: underline;
 
     & > h1:last-of-type {
         cursor: pointer;
