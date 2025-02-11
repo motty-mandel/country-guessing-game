@@ -24,11 +24,14 @@
     .welcome-sign h1 {
         font-size: 300%;
         font-weight: 100;
-        margin-bottom: 100px;
+        margin: 0;
     }
 
     .main-div .start-game .button {
         margin: 20px;
     }
 
+    .instructions {
+        margin: 0;
+    }
 }

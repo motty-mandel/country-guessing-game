@@ -8,13 +8,13 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: custom-font;
 }
 
 .upper-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: custom-font;
 }
 
 .upper-div .high-score {
@@ -29,7 +29,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: custom-font;
 }
 
 .main-div .welcome-sign h1 {
@@ -54,4 +53,12 @@ body {
 
 .main-div .start-game .button:active {
     transform: scale(0.9);
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
 }
