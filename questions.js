@@ -6,6 +6,7 @@ let roundsLength = parseInt(localStorage.getItem('rounds'));
 const correct = document.getElementById('correct');
 const incorrect = document.getElementById('incorrect');
 const empty = document.getElementById('empty');
+const help = document.getElementById('help');
 const countdownClock = document.getElementById('countdownClock');
 
 
@@ -37,11 +38,12 @@ function showCurrentHint() {
 
     if (questions.length === 0) {
         getName();
+        return;
     }
 
     currentQuestion = questions[questions.length * Math.random() | 0];
     const hintElement = document.getElementById('hint');
-    hintElement.textContent = `Which country is this: ${currentQuestion.hint}?`;
+    hintElement.innerHTML = `Which country is this:<br> ${currentQuestion.hint}?`;
 
 }
 
@@ -81,12 +83,18 @@ function checkAnswer() {
         empty.style.display = 'none';
         correct.style.display = 'none';
         incorrect.style.display = 'block';
+        help.style.display = 'block';
         document.getElementById('answer').value = '';
         if (score > 2) {
             score -= 2;
             scoreCard.innerHTML = `Score: ${score}`;
         }
     }
+}
+
+// Function to reveal the answer
+function reveal() {
+    help.innerHTML = `${currentQuestion.answer}`;
 }
 
 // Function to  get the name of the user and store it along with their score
