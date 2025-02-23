@@ -63,6 +63,8 @@ function checkAnswer() {
         empty.style.display = 'none';
         incorrect.style.display = 'none';
         correct.style.display = 'block';
+        help.style.display = 'none';
+        help.innerHTML = "Reveal";
         
         // Remove the current question from the array
         const index = questions.indexOf(currentQuestion);

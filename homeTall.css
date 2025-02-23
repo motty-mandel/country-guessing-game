@@ -1,0 +1,7 @@
+@media screen and (min-height: 1000px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
