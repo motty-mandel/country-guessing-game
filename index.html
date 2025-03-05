@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +9,47 @@
     <link rel="stylesheet" href="homeMobile.css">
     <link rel="stylesheet" href="homeTall.css">
 </head>
+
 <body>
 
-    <div class="upper-div">
-        <div class="high-score">
-            <h1>High Scores</h1>
-            <ul id="score-list">
-            </ul>
-        </div>
-
-        <div class="made-by">
-           <h1>Made by: Motty Mandel</h1>
-        </div>
+    <div class="border" id="border">
     </div>
 
-    <div class="main-div">
-        <div class="welcome-sign">
-            <h1>Welcome to Country Guessing Game</h1>
+    <div class="homepage">
+        <div class="upper-div">
+            <div class="high-score">
+                <h1>High Scores</h1>
+                <ul id="score-list">
+                </ul>
+            </div>
+
+            <div class="made-by">
+                <h1>Made by: Motty Mandel</h1>
+            </div>
         </div>
 
-        <div class="start-game">
-            <button id="rounds5" class="button" onclick="startTimer5()" value="1">one life</button>
-            <button id="rounds10" class="button" onclick="startTimer10()" value="5">five lives</button>
-            <button id="rounds15" class="button" onclick="startTimer15()" value="100000000">infinite lives</button>
-        </div>
-    </div>
+        <div class="main-div">
+            <div class="welcome-sign">
+                <h1>Welcome to Country Guessing Game</h1>
+            </div>
 
-    <div class="instructions">
-        <h1>instructions: you will be given the first and last letter of a country's name. <br>
-            it is your task to figure out which country it is and type it in the input box provided. <br>
-            enjoy!
+            <div class="start-game">
+                <button id="rounds5" class="button" onclick="startTimer5()" value="1">one life</button>
+                <button id="rounds10" class="button" onclick="startTimer10()" value="5">five lives</button>
+                <button id="rounds15" class="button" onclick="startTimer15()" value="100000000">infinite lives</button>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h1>instructions: you will be given the first and last letter of a country's name. <br>
+                it is your task to figure out which country it is and type it in the input box provided. <br>
+                enjoy!
             </h1>
+        </div>
     </div>
 
     <script src="scores.js"></script>
     <script src="country-dealer.js"></script>
 </body>
+
 </html>

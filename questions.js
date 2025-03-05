@@ -8,11 +8,13 @@ const incorrect = document.getElementById('incorrect');
 const empty = document.getElementById('empty');
 const help = document.getElementById('help');
 const countdownClock = document.getElementById('countdownClock');
+const border = document.getElementById('main-border');
 
 
 // Function to fetch and load the questions
 async function loadQuestions() {
 
+    border.style.backgroundColor = "white";
     try {
         const response = await fetch('questions.json');
         questions = await response.json();
@@ -53,10 +55,12 @@ function checkAnswer() {
     let scoreCard = document.getElementById('score-card');
     const answer = document.getElementById('answer').value.trim().toLowerCase();
 
+    // Empty answer
     if (answer === "") {
         correct.style.display = 'none';
         incorrect.style.display = 'none';
-        empty.style.display = 'block'
+        empty.style.display = 'block';
+    // Correct answer 
     } else if (answer === currentQuestion.answer.toLowerCase()) {
         score += 5;
         scoreCard.innerHTML = `Score: ${score}`;
@@ -64,16 +68,16 @@ function checkAnswer() {
         incorrect.style.display = 'none';
         correct.style.display = 'block';
         help.style.display = 'none';
-        help.innerHTML = "Reveal";
-        
-        // Remove the current question from the array
+        border.style.backgroundColor = "green";
+    // Remove the current question from the array
         const index = questions.indexOf(currentQuestion);
         if (index > -1) {
             questions.splice(index, 1);
         }
 
-        document.getElementById('answer').value = '';
+        document.getElementById('answer').value = ''; 
         showCurrentHint();
+    // Incorrect answer
     } else {
         if (roundsLength === 1) {
             getName();
@@ -85,7 +89,9 @@ function checkAnswer() {
         empty.style.display = 'none';
         correct.style.display = 'none';
         incorrect.style.display = 'block';
+        help.innerHTML = "Reveal";
         help.style.display = 'block';
+        border.style.backgroundColor = "red";
         document.getElementById('answer').value = '';
         if (score > 2) {
             score -= 2;
@@ -127,8 +133,6 @@ function getName() {
         window.location.href = 'index.html';
     })
 }
-
-
 
 
 

@@ -3,6 +3,10 @@
         overflow: hidden;
     }
 
+    .homepage {
+        margin: 0;
+    }
+
     .upper-div {
         width: 100vw;
     }

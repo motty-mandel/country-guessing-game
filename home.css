@@ -13,6 +13,26 @@ html, body {
     overflow: auto;
 }
 
+.homepage {
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: white;
+    height: 98.7vh;
+    width: 99.4vw;
+    position: relative;
+    z-index: 2;
+}
+
+.border {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .upper-div {
     display: flex;
     flex-direction: row;

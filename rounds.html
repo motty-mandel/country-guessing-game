@@ -12,41 +12,45 @@
 
 <body>
 
-
-    <div id="overlay" class="overlay"></div>
-
-    <div class="score">
-        <h1 id="score-card">Score: 0</h1>
-        <h1 class="countdownClock" id="countdownClock"></h1>
-        <h1 onclick="getName()">Home</h1>
+    <div class="main-border" id="main-border">
     </div>
 
-    <div id="question" class="question">
-        <h1 id="hint"></h1>
-        <label for="answer">Answer:</label>
-        <input type="text" id="answer" name="answer" placeholder="answer">
-        <button type="submit">Check Answer</button>
-        <h1 class="correct" id="correct">Nice! Next one!</h1>
-        <h1 class="incorrect" id="incorrect">Uh-oh. Try again.</h1>
-        <h1 class="empty" id="empty">Please type in an answer!</h1>
-        <h1 class="help" id="help" onclick="reveal()">Reveal</h1>
-    </div>
+    <div class="gamepage">
+        <div id="overlay" class="overlay"></div>
 
-    <div class="username-container">
-        <div id="username" class="username">
-            <h1>Congratulations on  <br>
-                finishing the game! <br>
-                Enter your username <br>
-                to save your score!</h1>
-            <label for="username"></label>
-            <input type="text" id="name" name="username" placeholder="username">
-            <button type="button" id="enterName">Enter</button>
-            <button type="button" id="skipName">Skip</button>
+        <div class="score">
+            <h1 id="score-card">Score: 0</h1>
+            <h1 class="countdownClock" id="countdownClock"></h1>
+            <h1 onclick="getName()">Home</h1>
+        </div>
+
+        <div id="question" class="question">
+            <h1 id="hint"></h1>
+            <label for="answer">Answer:</label>
+            <input type="text" id="answer" name="answer" placeholder="answer">
+            <button type="submit">Check Answer</button>
+            <h1 class="correct" id="correct">Nice! Next one!</h1>
+            <h1 class="incorrect" id="incorrect">Uh-oh. Try again.</h1>
+            <h1 class="empty" id="empty">Please type in an answer!</h1>
+            <h1 class="help" id="help" onclick="reveal()">Reveal</h1>
+        </div>
+
+        <div class="username-container">
+            <div id="username" class="username">
+                <h1>Congratulations on <br>
+                    finishing the game! <br>
+                    Enter your username <br>
+                    to save your score!</h1>
+                <label for="username"></label>
+                <input type="text" id="name" name="username" placeholder="username">
+                <button type="button" id="enterName">Enter</button>
+                <button type="button" id="skipName">Skip</button>
+            </div>
         </div>
     </div>
 
     <script src="questions.js"></script>
-    
+
 </body>
 
 </html>

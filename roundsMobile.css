@@ -6,4 +6,8 @@
     .username-container input {
         font-size: 20px;
     }
+
+    .gamepage {
+        width: 97.5vw;
+    }
 }
