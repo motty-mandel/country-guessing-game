@@ -8,13 +8,13 @@ const incorrect = document.getElementById('incorrect');
 const empty = document.getElementById('empty');
 const help = document.getElementById('help');
 const countdownClock = document.getElementById('countdownClock');
-const border = document.getElementById('main-border');
+const border = document.getElementById('gamepage');
 
 
 // Function to fetch and load the questions
 async function loadQuestions() {
 
-    border.style.backgroundColor = "white";
+    // border.style.backgroundColor = "white";
     try {
         const response = await fetch('questions.json');
         questions = await response.json();
@@ -68,7 +68,7 @@ function checkAnswer() {
         incorrect.style.display = 'none';
         correct.style.display = 'block';
         help.style.display = 'none';
-        border.style.backgroundColor = "green";
+        border.style.borderColor = "green";
     // Remove the current question from the array
         const index = questions.indexOf(currentQuestion);
         if (index > -1) {
@@ -91,7 +91,7 @@ function checkAnswer() {
         incorrect.style.display = 'block';
         help.innerHTML = "Reveal";
         help.style.display = 'block';
-        border.style.backgroundColor = "red";
+        border.style.borderColor = "red";
         document.getElementById('answer').value = '';
         if (score > 2) {
             score -= 2;
