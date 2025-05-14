@@ -83,7 +83,7 @@ function checkAnswer() {
             getName();
         } else {
             roundsLength -= 1;
-            countdownClock.innerHTML = `wrong answers:  ${roundsLength}`;
+            countdownClock.innerHTML = `remaining guesses:  ${roundsLength}`;
         }
 
         empty.style.display = 'none';
