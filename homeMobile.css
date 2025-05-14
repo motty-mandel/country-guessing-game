@@ -1,24 +1,11 @@
 @media screen and (max-width: 1400px) {
-    html {
-        overflow: hidden;
-    }
-
     .homepage {
         margin: 0;
     }
 
     .upper-div {
-        width: 100vw;
+        font-size: 12px;
     }
-
-    .upper-div .high-score {
-        font-size: small;
-    }
-
-    .upper-div .made-by {
-        margin: 0 5px 0 0;
-        font-size: x-small;
-    }    
 
     .main-div {
         width: 100vw;
