@@ -14,10 +14,10 @@
         }
     ],
     "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
+    "start_url": "./index.html",
+    "scope": "./",
     "background_color": "#3367D6",
     "display": "fullscreen",
-    "scope": "/",
     "theme_color": "#FFFFFF",
     "description": "A game to guess the country from the first and last letters of its name.",
     "screenshots": [
