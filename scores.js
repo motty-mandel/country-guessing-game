@@ -34,12 +34,12 @@ function startTimer10() {
     localStorage.setItem('rounds', rounds);
 }
 
-function startTimer15() {
-    window.location.href = 'rounds.html'
-    const rounds = document.getElementById('rounds15').value;
-    localStorage.removeItem(rounds);
-    localStorage.setItem('rounds', rounds);
-}
+// function startTimer15() {
+//     window.location.href = 'rounds.html'
+//     const rounds = document.getElementById('rounds15').value;
+//     localStorage.removeItem(rounds);
+//     localStorage.setItem('rounds', rounds);
+// }
 
 
 // Start the game when the page loads
