@@ -5,14 +5,12 @@
         {
             "src": "icon-192.png",
             "type": "image/png",
-            "sizes": "192x192",
-            "purpose": "any maskable"
+            "sizes": "192x192"
         },
         {
             "src": "icon-512.png",
             "type": "image/png",
-            "sizes": "512x512",
-            "purpose": "any maskable"
+            "sizes": "512x512"
         }
     ],
     "id": "/?source=pwa",
@@ -26,12 +24,14 @@
         {
             "src": "homescreen-tall.png",
             "type": "image/png",
-            "sizes": "401x822"
+            "sizes": "401x822",
+            "form_factor": "narrow"
         },
         {
             "src": "homescreen-wide.png",
             "type": "image/png",
-            "sizes": "720x347"
+            "sizes": "720x347",
+            "form_factor": "wide"
         }
     ]
 }
