@@ -21,21 +21,21 @@ async function initGame() {
 
 
 function startTimer5() {
-    window.location.href = '/country-guessing-game/rounds.html'
+    window.location.href = 'rounds.html'
     const rounds = document.getElementById('rounds5').value;
     localStorage.removeItem(rounds);
     localStorage.setItem('rounds', rounds);
 }
 
 function startTimer10() {
-    window.location.href = '/country-guessing-game/rounds.html'
+    window.location.href = 'rounds.html'
     const rounds = document.getElementById('rounds10').value;
     localStorage.removeItem(rounds);
     localStorage.setItem('rounds', rounds);
 }
 
 function startTimer15() {
-    window.location.href = '/country-guessing-game/rounds.html'
+    window.location.href = 'rounds.html'
     const rounds = document.getElementById('rounds15').value;
     localStorage.removeItem(rounds);
     localStorage.setItem('rounds', rounds);
