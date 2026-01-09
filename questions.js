@@ -36,7 +36,7 @@ async function loadQuestions() {
 
 // Function to display the current hint
 function showCurrentHint() {
-    countdownClock.innerHTML = `wrong answers: ${roundsLength}`;
+    countdownClock.innerHTML = `Lives: ${roundsLength}`;
 
     if (questions.length === 0) {
         getName();
@@ -83,7 +83,7 @@ function checkAnswer() {
             getName();
         } else {
             roundsLength -= 1;
-            countdownClock.innerHTML = `remaining guesses:  ${roundsLength}`;
+            countdownClock.innerHTML = `Lives:  ${roundsLength}`;
         }
 
         empty.style.display = 'none';
