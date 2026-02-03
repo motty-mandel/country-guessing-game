@@ -45,7 +45,7 @@ function showCurrentHint() {
 
     currentQuestion = questions[questions.length * Math.random() | 0];
     const hintElement = document.getElementById('hint');
-    hintElement.innerHTML = `Which country is this:<br> ${currentQuestion.hint}?`;
+    hintElement.innerHTML = `${currentQuestion.hint}`;
 
 }
 
@@ -60,7 +60,7 @@ function checkAnswer() {
         correct.style.display = 'none';
         incorrect.style.display = 'none';
         empty.style.display = 'block';
-    // Correct answer 
+        // Correct answer 
     } else if (answer === currentQuestion.answer.toLowerCase()) {
         score += 5;
         scoreCard.innerHTML = `Score: ${score}`;
@@ -68,16 +68,16 @@ function checkAnswer() {
         incorrect.style.display = 'none';
         correct.style.display = 'block';
         help.style.display = 'none';
-        border.style.borderColor = "green";
-    // Remove the current question from the array
+        border.style.borderColor = "#10b981";
+        // Remove the current question from the array
         const index = questions.indexOf(currentQuestion);
         if (index > -1) {
             questions.splice(index, 1);
         }
 
-        document.getElementById('answer').value = ''; 
+        document.getElementById('answer').value = '';
         showCurrentHint();
-    // Incorrect answer
+        // Incorrect answer
     } else {
         if (roundsLength === 1) {
             getName();
@@ -91,7 +91,7 @@ function checkAnswer() {
         incorrect.style.display = 'block';
         help.innerHTML = "Reveal";
         help.style.display = 'block';
-        border.style.borderColor = "red";
+        border.style.borderColor = "#ef4444";
         document.getElementById('answer').value = '';
         if (score > 2) {
             score -= 2;
@@ -112,6 +112,16 @@ function getName() {
     document.getElementById('question').style.display = "none";
 
     const name = document.getElementById('name');
+    const overlay = document.getElementById('overlay');
+
+    // Close overlay when clicking outside the username box
+    overlay.addEventListener('click', function (event) {
+        if (event.target === overlay) {
+            overlay.style.display = "none";
+            document.getElementById('question').style.display = "flex";
+            username.style.display = "none";
+        }
+    });
 
     document.getElementById('enterName').addEventListener('click', function () {
 

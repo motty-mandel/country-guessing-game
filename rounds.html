@@ -5,15 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Game</title>
-    <link rel="stylesheet" href="rounds.css">
-    <link rel="stylesheet" href="roundsMobile.css">
-    <link rel="stylesheet" href="roundsTall.css">
+    <link rel="stylesheet" href="./css/rounds.css">
+    <link rel="stylesheet" href="./css/roundsMobile.css">
+    <link rel="stylesheet" href="./css/roundsTall.css">
     <link rel="manifest" href="/manifest.json">
 </head>
 
 <body>
 
     <div id="gamepage" class="gamepage">
+
+        <div class="circle"></div>
+        <div class="rectangle"></div>
+        
+        <div class="triangle">
+            <div class="triangle2">
+                <div class="triangle3">
+                    <div class="triangle4">
+                        <div class="triangle5">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="overlay" class="overlay"></div>
 
         <div class="score">
@@ -23,14 +39,17 @@
         </div>
 
         <div id="question" class="question">
-            <h1 id="hint"></h1>
-            <label for="answer">Answer:</label>
-            <input type="text" id="answer" name="answer" placeholder="answer">
-            <button type="submit">Check Answer</button>
-            <h1 class="correct" id="correct">Nice! Next one!</h1>
-            <h1 class="incorrect" id="incorrect">Uh-oh. Try again.</h1>
-            <h1 class="empty" id="empty">Please type in an answer!</h1>
-            <h1 class="help" id="help" onclick="reveal()">Reveal</h1>
+            <div class="content">
+                <h2>Which country is this:</h2>
+                <h1 id="hint"></h1>
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer" name="answer" placeholder="">
+                <button type="submit">Check Answer</button>
+                <h1 class="correct" id="correct">Nice! Next one!</h1>
+                <h1 class="incorrect" id="incorrect">Uh-oh. Try again.</h1>
+                <h1 class="empty" id="empty">Please type in an answer!</h1>
+                <h1 class="help" id="help" onclick="reveal()">Reveal</h1>
+            </div>
         </div>
 
         <div class="username-container">
@@ -45,9 +64,11 @@
                 <button type="button" id="skipName">Skip</button>
             </div>
         </div>
+    
+    
     </div>
 
-    <script src="questions.js"></script>
+    <script src="./js/questions.js"></script>
 
 </body>
 

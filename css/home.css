@@ -1,20 +1,23 @@
 @font-face {
     font-family: custom-font;
-    src: url(./font/SuperBoys-vmW67.ttf);
-    font-style: normal; 
+    src: url(../font/SuperBoys-vmW67.ttf);
+    font-style: normal;
 }
 
-html, body {
+html,
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: custom-font;
     height: 100%;
     overflow: auto;
+    color: #1f2937;
 }
 
 .homepage {
-    background-color: white;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #a8edea, #fed6e3);
     box-sizing: border-box;
 }
 
@@ -30,18 +33,6 @@ html, body {
 
 .upper-div .made-by {
     margin-right: 10px;
-}
-
-.main-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-div .welcome-sign h1 {
-    font-size: 400%;
-    font-weight: 100;
-    margin-bottom: 100px;
 }
 
 .main-div .start-game .button {
@@ -60,12 +51,4 @@ html, body {
 
 .main-div .start-game .button:active {
     transform: scale(0.9);
-}
-
-.instructions {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    margin-top: 100px;
 }

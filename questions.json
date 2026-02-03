@@ -7,7 +7,7 @@
     {
         "hint": "I - L",
         "answer": "israel",
-        "hint2": ["i", "s", "r", "a", "e", "l"]
+        "hint2": ""
     },
     {
         "hint": "C - A",
@@ -57,6 +57,931 @@
     {
         "hint": "R - A",
         "answer": "russia",
+        "hint2": ""
+    },
+    {
+        "hint": "A - N",
+        "answer": "afghanistan",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "albania",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "algeria",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "andorra",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "angola",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "antigua and barbuda",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "argentina",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "armenia",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "australia",
+        "hint2": ""
+    },
+    {
+        "hint": "A - A",
+        "answer": "austria",
+        "hint2": ""
+    },
+    {
+        "hint": "A - E",
+        "answer": "austrian empire",
+        "hint2": ""
+    },
+    {
+        "hint": "A - N",
+        "answer": "azerbaijan",
+        "hint2": ""
+    },
+    {
+        "hint": "B - S",
+        "answer": "bahamas",
+        "hint2": ""
+    },
+    {
+        "hint": "B - N",
+        "answer": "bahrain",
+        "hint2": ""
+    },
+    {
+        "hint": "B - H",
+        "answer": "bangladesh",
+        "hint2": ""
+    },
+    {
+        "hint": "B - S",
+        "answer": "barbados",
+        "hint2": ""
+    },
+    {
+        "hint": "B - S",
+        "answer": "belarus",
+        "hint2": ""
+    },
+    {
+        "hint": "B - M",
+        "answer": "belgium",
+        "hint2": ""
+    },
+    {
+        "hint": "B - E",
+        "answer": "belize",
+        "hint2": ""
+    },
+    {
+        "hint": "B - N",
+        "answer": "benin",
+        "hint2": ""
+    },
+    {
+        "hint": "B - N",
+        "answer": "bhutan",
+        "hint2": ""
+    },
+    {
+        "hint": "B - A",
+        "answer": "bolivia",
+        "hint2": ""
+    },
+    {
+        "hint": "B - A",
+        "answer": "bosnia and herzegovina",
+        "hint2": ""
+    },
+    {
+        "hint": "B - A",
+        "answer": "botswana",
+        "hint2": ""
+    },
+    {
+        "hint": "B - L",
+        "answer": "brazil",
+        "hint2": ""
+    },
+    {
+        "hint": "B - N",
+        "answer": "brunei",
+        "hint2": ""
+    },
+    {
+        "hint": "B - A",
+        "answer": "bulgaria",
+        "hint2": ""
+    },
+    {
+        "hint": "B - O",
+        "answer": "burkina faso",
+        "hint2": ""
+    },
+    {
+        "hint": "B - I",
+        "answer": "burundi",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "cambodia",
+        "hint2": ""
+    },
+    {
+        "hint": "C - N",
+        "answer": "cameroon",
+        "hint2": ""
+    },
+    {
+        "hint": "C - E",
+        "answer": "cape verde",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "central african republic",
+        "hint2": ""
+    },
+    {
+        "hint": "C - D",
+        "answer": "chad",
+        "hint2": ""
+    },
+    {
+        "hint": "C - E",
+        "answer": "chile",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "china",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "colombia",
+        "hint2": ""
+    },
+    {
+        "hint": "C - S",
+        "answer": "comoros",
+        "hint2": ""
+    },
+    {
+        "hint": "C - O",
+        "answer": "congo",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "costa rica",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "croatia",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "cuba",
+        "hint2": ""
+    },
+    {
+        "hint": "C - S",
+        "answer": "cyprus",
+        "hint2": ""
+    },
+    {
+        "hint": "C - A",
+        "answer": "czech republic",
+        "hint2": ""
+    },
+    {
+        "hint": "D - K",
+        "answer": "democratic republic of congo",
+        "hint2": ""
+    },
+    {
+        "hint": "D - D",
+        "answer": "djibouti",
+        "hint2": ""
+    },
+    {
+        "hint": "D - A",
+        "answer": "dominica",
+        "hint2": ""
+    },
+    {
+        "hint": "D - N",
+        "answer": "dominican republic",
+        "hint2": ""
+    },
+    {
+        "hint": "E - R",
+        "answer": "ecuador",
+        "hint2": ""
+    },
+    {
+        "hint": "E - A",
+        "answer": "equatorial guinea",
+        "hint2": ""
+    },
+    {
+        "hint": "E - A",
+        "answer": "eritrea",
+        "hint2": ""
+    },
+    {
+        "hint": "E - A",
+        "answer": "estonia",
+        "hint2": ""
+    },
+    {
+        "hint": "E - A",
+        "answer": "eswatini",
+        "hint2": ""
+    },
+    {
+        "hint": "E - A",
+        "answer": "ethiopia",
+        "hint2": ""
+    },
+    {
+        "hint": "F - I",
+        "answer": "fiji",
+        "hint2": ""
+    },
+    {
+        "hint": "F - D",
+        "answer": "finland",
+        "hint2": ""
+    },
+    {
+        "hint": "F - E",
+        "answer": "france",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "gabon",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "gambia",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "georgia",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "ghana",
+        "hint2": ""
+    },
+    {
+        "hint": "G - E",
+        "answer": "greece",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "grenada",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "guatemala",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "guinea",
+        "hint2": ""
+    },
+    {
+        "hint": "G - U",
+        "answer": "guinea-bissau",
+        "hint2": ""
+    },
+    {
+        "hint": "G - A",
+        "answer": "guyana",
+        "hint2": ""
+    },
+    {
+        "hint": "H - I",
+        "answer": "haiti",
+        "hint2": ""
+    },
+    {
+        "hint": "H - A",
+        "answer": "honduras",
+        "hint2": ""
+    },
+    {
+        "hint": "H - Y",
+        "answer": "hungary",
+        "hint2": ""
+    },
+    {
+        "hint": "I - D",
+        "answer": "iceland",
+        "hint2": ""
+    },
+    {
+        "hint": "I - A",
+        "answer": "indonesia",
+        "hint2": ""
+    },
+    {
+        "hint": "I - N",
+        "answer": "iran",
+        "hint2": ""
+    },
+    {
+        "hint": "I - Q",
+        "answer": "iraq",
+        "hint2": ""
+    },
+    {
+        "hint": "I - D",
+        "answer": "ireland",
+        "hint2": ""
+    },
+    {
+        "hint": "I - Y",
+        "answer": "ivory coast",
+        "hint2": ""
+    },
+    {
+        "hint": "J - N",
+        "answer": "japan",
+        "hint2": ""
+    },
+    {
+        "hint": "J - N",
+        "answer": "jordan",
+        "hint2": ""
+    },
+    {
+        "hint": "K - N",
+        "answer": "kazakhstan",
+        "hint2": ""
+    },
+    {
+        "hint": "K - A",
+        "answer": "kenya",
+        "hint2": ""
+    },
+    {
+        "hint": "K - S",
+        "answer": "kiribati",
+        "hint2": ""
+    },
+    {
+        "hint": "K - O",
+        "answer": "kosovo",
+        "hint2": ""
+    },
+    {
+        "hint": "K - T",
+        "answer": "kuwait",
+        "hint2": ""
+    },
+    {
+        "hint": "K - N",
+        "answer": "kyrgyzstan",
+        "hint2": ""
+    },
+    {
+        "hint": "L - S",
+        "answer": "laos",
+        "hint2": ""
+    },
+    {
+        "hint": "L - A",
+        "answer": "latvia",
+        "hint2": ""
+    },
+    {
+        "hint": "L - N",
+        "answer": "lebanon",
+        "hint2": ""
+    },
+    {
+        "hint": "L - O",
+        "answer": "lesotho",
+        "hint2": ""
+    },
+    {
+        "hint": "L - A",
+        "answer": "liberia",
+        "hint2": ""
+    },
+    {
+        "hint": "L - A",
+        "answer": "libya",
+        "hint2": ""
+    },
+    {
+        "hint": "L - N",
+        "answer": "liechtenstein",
+        "hint2": ""
+    },
+    {
+        "hint": "L - A",
+        "answer": "lithuania",
+        "hint2": ""
+    },
+    {
+        "hint": "L - G",
+        "answer": "luxembourg",
+        "hint2": ""
+    },
+    {
+        "hint": "M - A",
+        "answer": "madagascar",
+        "hint2": ""
+    },
+    {
+        "hint": "M - I",
+        "answer": "malawi",
+        "hint2": ""
+    },
+    {
+        "hint": "M - A",
+        "answer": "malaysia",
+        "hint2": ""
+    },
+    {
+        "hint": "M - S",
+        "answer": "maldives",
+        "hint2": ""
+    },
+    {
+        "hint": "M - I",
+        "answer": "mali",
+        "hint2": ""
+    },
+    {
+        "hint": "M - A",
+        "answer": "malta",
+        "hint2": ""
+    },
+    {
+        "hint": "M - S",
+        "answer": "marshall islands",
+        "hint2": ""
+    },
+    {
+        "hint": "M - A",
+        "answer": "mauritania",
+        "hint2": ""
+    },
+    {
+        "hint": "M - S",
+        "answer": "mauritius",
+        "hint2": ""
+    },
+    {
+        "hint": "M - O",
+        "answer": "mexico",
+        "hint2": ""
+    },
+    {
+        "hint": "M - O",
+        "answer": "micronesia",
+        "hint2": ""
+    },
+    {
+        "hint": "M - A",
+        "answer": "moldova",
+        "hint2": ""
+    },
+    {
+        "hint": "M - O",
+        "answer": "monaco",
+        "hint2": ""
+    },
+    {
+        "hint": "M - A",
+        "answer": "mongolia",
+        "hint2": ""
+    },
+    {
+        "hint": "M - O",
+        "answer": "montenegro",
+        "hint2": ""
+    },
+    {
+        "hint": "M - O",
+        "answer": "morocco",
+        "hint2": ""
+    },
+    {
+        "hint": "M - E",
+        "answer": "mozambique",
+        "hint2": ""
+    },
+    {
+        "hint": "M - R",
+        "answer": "myanmar",
+        "hint2": ""
+    },
+    {
+        "hint": "N - A",
+        "answer": "namibia",
+        "hint2": ""
+    },
+    {
+        "hint": "N - U",
+        "answer": "nauru",
+        "hint2": ""
+    },
+    {
+        "hint": "N - L",
+        "answer": "nepal",
+        "hint2": ""
+    },
+    {
+        "hint": "N - S",
+        "answer": "netherlands",
+        "hint2": ""
+    },
+    {
+        "hint": "N - D",
+        "answer": "new zealand",
+        "hint2": ""
+    },
+    {
+        "hint": "N - A",
+        "answer": "nicaragua",
+        "hint2": ""
+    },
+    {
+        "hint": "N - A",
+        "answer": "niger",
+        "hint2": ""
+    },
+    {
+        "hint": "N - A",
+        "answer": "nigeria",
+        "hint2": ""
+    },
+    {
+        "hint": "N - A",
+        "answer": "north korea",
+        "hint2": ""
+    },
+    {
+        "hint": "N - A",
+        "answer": "north macedonia",
+        "hint2": ""
+    },
+    {
+        "hint": "N - Y",
+        "answer": "norway",
+        "hint2": ""
+    },
+    {
+        "hint": "O - N",
+        "answer": "oman",
+        "hint2": ""
+    },
+    {
+        "hint": "P - N",
+        "answer": "pakistan",
+        "hint2": ""
+    },
+    {
+        "hint": "P - U",
+        "answer": "palau",
+        "hint2": ""
+    },
+    {
+        "hint": "P - E",
+        "answer": "palestine",
+        "hint2": ""
+    },
+    {
+        "hint": "P - A",
+        "answer": "panama",
+        "hint2": ""
+    },
+    {
+        "hint": "P - A",
+        "answer": "papua new guinea",
+        "hint2": ""
+    },
+    {
+        "hint": "P - Y",
+        "answer": "paraguay",
+        "hint2": ""
+    },
+    {
+        "hint": "P - U",
+        "answer": "peru",
+        "hint2": ""
+    },
+    {
+        "hint": "P - S",
+        "answer": "philippines",
+        "hint2": ""
+    },
+    {
+        "hint": "P - D",
+        "answer": "portugal",
+        "hint2": ""
+    },
+    {
+        "hint": "Q - R",
+        "answer": "qatar",
+        "hint2": ""
+    },
+    {
+        "hint": "R - A",
+        "answer": "romania",
+        "hint2": ""
+    },
+    {
+        "hint": "R - A",
+        "answer": "rwanda",
+        "hint2": ""
+    },
+    {
+        "hint": "S - S",
+        "answer": "saint kitts and nevis",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "saint lucia",
+        "hint2": ""
+    },
+    {
+        "hint": "S - S",
+        "answer": "saint vincent and the grenadines",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "samoa",
+        "hint2": ""
+    },
+    {
+        "hint": "S - O",
+        "answer": "san marino",
+        "hint2": ""
+    },
+    {
+        "hint": "S - E",
+        "answer": "sao tome and principe",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "saudi arabia",
+        "hint2": ""
+    },
+    {
+        "hint": "S - L",
+        "answer": "senegal",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "serbia",
+        "hint2": ""
+    },
+    {
+        "hint": "S - S",
+        "answer": "seychelles",
+        "hint2": ""
+    },
+    {
+        "hint": "S - E",
+        "answer": "sierra leone",
+        "hint2": ""
+    },
+    {
+        "hint": "S - E",
+        "answer": "singapore",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "slovakia",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "slovenia",
+        "hint2": ""
+    },
+    {
+        "hint": "S - S",
+        "answer": "solomon islands",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "somalia",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "south africa",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "south korea",
+        "hint2": ""
+    },
+    {
+        "hint": "S - S",
+        "answer": "south sudan",
+        "hint2": ""
+    },
+    {
+        "hint": "S - N",
+        "answer": "spain",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "sri lanka",
+        "hint2": ""
+    },
+    {
+        "hint": "S - N",
+        "answer": "sudan",
+        "hint2": ""
+    },
+    {
+        "hint": "S - E",
+        "answer": "suriname",
+        "hint2": ""
+    },
+    {
+        "hint": "S - D",
+        "answer": "switzerland",
+        "hint2": ""
+    },
+    {
+        "hint": "S - A",
+        "answer": "syria",
+        "hint2": ""
+    },
+    {
+        "hint": "T - N",
+        "answer": "taiwan",
+        "hint2": ""
+    },
+    {
+        "hint": "T - N",
+        "answer": "tajikistan",
+        "hint2": ""
+    },
+    {
+        "hint": "T - A",
+        "answer": "tanzania",
+        "hint2": ""
+    },
+    {
+        "hint": "T - D",
+        "answer": "thailand",
+        "hint2": ""
+    },
+    {
+        "hint": "T - E",
+        "answer": "timor-leste",
+        "hint2": ""
+    },
+    {
+        "hint": "T - O",
+        "answer": "togo",
+        "hint2": ""
+    },
+    {
+        "hint": "T - O",
+        "answer": "trinidad and tobago",
+        "hint2": ""
+    },
+    {
+        "hint": "T - A",
+        "answer": "tunisia",
+        "hint2": ""
+    },
+    {
+        "hint": "T - Y",
+        "answer": "turkey",
+        "hint2": ""
+    },
+    {
+        "hint": "T - N",
+        "answer": "turkmenistan",
+        "hint2": ""
+    },
+    {
+        "hint": "T - U",
+        "answer": "tuvalu",
+        "hint2": ""
+    },
+    {
+        "hint": "U - A",
+        "answer": "uganda",
+        "hint2": ""
+    },
+    {
+        "hint": "U - E",
+        "answer": "ukraine",
+        "hint2": ""
+    },
+    {
+        "hint": "U - S",
+        "answer": "united arab emirates",
+        "hint2": ""
+    },
+    {
+        "hint": "U - M",
+        "answer": "united kingdom",
+        "hint2": ""
+    },
+    {
+        "hint": "U - S",
+        "answer": "united states",
+        "hint2": ""
+    },
+    {
+        "hint": "U - Y",
+        "answer": "uruguay",
+        "hint2": ""
+    },
+    {
+        "hint": "U - N",
+        "answer": "uzbekistan",
+        "hint2": ""
+    },
+    {
+        "hint": "V - U",
+        "answer": "vanuatu",
+        "hint2": ""
+    },
+    {
+        "hint": "V - Y",
+        "answer": "vatican city",
+        "hint2": ""
+    },
+    {
+        "hint": "V - A",
+        "answer": "venezuela",
+        "hint2": ""
+    },
+    {
+        "hint": "V - M",
+        "answer": "vietnam",
+        "hint2": ""
+    },
+    {
+        "hint": "Y - N",
+        "answer": "yemen",
+        "hint2": ""
+    },
+    {
+        "hint": "Z - A",
+        "answer": "zambia",
+        "hint2": ""
+    },
+    {
+        "hint": "Z - E",
+        "answer": "zimbabwe",
         "hint2": ""
     }
 ]

@@ -3,12 +3,12 @@
     "name": "Which Country is it?",
     "icons": [
         {
-            "src": "icon-192.png",
+            "src": "./pictures/icon-192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "icon-512.png",
+            "src": "./pictures/icon-512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
@@ -22,13 +22,13 @@
     "description": "A game to guess the country from the first and last letters of its name.",
     "screenshots": [
         {
-            "src": "homescreen-tall.png",
+            "src": "./pictures/homescreen-tall.png",
             "type": "image/png",
             "sizes": "401x822",
             "form_factor": "narrow"
         },
         {
-            "src": "homescreen-wide.png",
+            "src": "./pictures/homescreen-wide.png",
             "type": "image/png",
             "sizes": "720x347",
             "form_factor": "wide"

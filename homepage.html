@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single or Multi</title>
+    <link rel="icon" href="./font/globe-icon.png">
+    <link rel="stylesheet" href="./css/homepage.css">
+</head>
+
+<body>
+
+
+
+    <div class="mostHighContainer">
+
+
+        <div class="welcome-sign">
+            <h1>Welcome to Country Guessing Game</h1>
+        </div>
+
+        <div class="instructions">
+            <h1>instructions: you will be given the first and last letter of a country's name. <br>
+                it is your task to figure out which country it is and type it in the input box provided. <br>
+                enjoy!
+            </h1>
+        </div>
+
+        <div class="singleOrMulti">
+            <div class="single">
+                <h2 onClick="singlePlayer()">Single player</h2>
+            </div>
+            <div class="multi">
+                <h2 onClick="multiPlayer()">Multi player</h2>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script>
+        function singlePlayer() {
+            window.location.href = 'singleplayer.html'
+        }
+
+        function multiPlayer() {
+            window.location.href = 'multiplayer.html'
+        }
+    </script>
+
+</body>
+
+</html>

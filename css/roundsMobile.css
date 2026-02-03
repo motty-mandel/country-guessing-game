@@ -1,0 +1,26 @@
+@media screen and (max-width: 1400px) {
+    .question input {
+        font-size: 20px;
+    }
+
+    .username-container input {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .rectangle {
+        width: 50px;
+        height: 100px;
+    }
+
+    .triangle {
+        width: 100px;
+        height: 100px;
+    }
+}
