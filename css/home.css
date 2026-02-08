@@ -35,11 +35,35 @@ body {
     margin-right: 10px;
 }
 
-.main-div .start-game .button {
+.main-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-div .start-game {
+    display: flex;
+    padding: 20px;
+}
+
+.main-div .start-game .levels {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 10px;
+    background: white;
+    margin: 10px;
+}
+
+.main-div .start-game .levels h2 {
+    text-align: center;
+}
+
+.main-div .start-game div button {
     outline: none;
     border: none;
     padding: 20px 30px;
-    margin: 0 20px;
+    margin: 20px 20px;
     font-family: custom-font;
     font-size: larger;
     border-radius: 10px;
@@ -47,6 +71,8 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: #000;
+    border-radius: 10px;
+    border: solid;
 }
 
 .main-div .start-game .button:active {

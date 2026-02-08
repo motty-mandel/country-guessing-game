@@ -16,9 +16,7 @@ async function initGame() {
             scoreList.appendChild(newLi);
         });
     }
-
 }
-
 
 function startTimer5() {
     window.location.href = 'rounds.html'
@@ -33,14 +31,6 @@ function startTimer10() {
     localStorage.removeItem(rounds);
     localStorage.setItem('rounds', rounds);
 }
-
-// function startTimer15() {
-//     window.location.href = 'rounds.html'
-//     const rounds = document.getElementById('rounds15').value;
-//     localStorage.removeItem(rounds);
-//     localStorage.setItem('rounds', rounds);
-// }
-
 
 // Start the game when the page loads
 document.addEventListener('DOMContentLoaded', initGame);
