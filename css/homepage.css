@@ -13,6 +13,7 @@ body {
     height: 100%;
     overflow: auto;
     color: #1f2937;
+    background: linear-gradient(to bottom right, #a8edea, #fed6e3);
 }
 
 

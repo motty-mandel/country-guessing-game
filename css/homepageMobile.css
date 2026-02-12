@@ -1,0 +1,26 @@
+@media screen and (max-width: 1400px) {
+    .mostHighContainer {
+        padding: 10px;
+    }
+
+    .welcome-sign {
+        padding: 20px;
+        text-align: center;
+        background:
+            linear-gradient(135deg, rgba(255, 255, 255, 38%),
+                rgba(255, 255, 255, 38%));
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(50px);
+        border-radius: 20px;
+    }
+
+    .welcome-sign h1 {
+        font-size: revert;
+        font-weight: revert;
+        margin: 0;
+    }
+
+    .instructions {
+        margin: 0;
+    }
+}
