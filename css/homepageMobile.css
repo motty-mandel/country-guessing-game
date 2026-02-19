@@ -1,6 +1,7 @@
 @media screen and (max-width: 1400px) {
     .mostHighContainer {
         padding: 10px;
+        height: 100vh;
     }
 
     .welcome-sign {

@@ -3,13 +3,18 @@
     "name": "Which Country is it?",
     "icons": [
         {
-            "src": "./pictures/icon-192.png",
-            "type": "image/png",
+            "src": "./pictures/countryGameIcon144.jpg",
+            "type": "image/jpg",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./pictures/countryGameIcon192.jpg",
+            "type": "image/jpg",
             "sizes": "192x192"
         },
         {
-            "src": "./pictures/icon-512.png",
-            "type": "image/png",
+            "src": "./pictures/countryGameIcon512.jpg",
+            "type": "image/jpg",
             "sizes": "512x512"
         }
     ],

@@ -16,7 +16,7 @@ async function loadQuestions() {
 
     // border.style.backgroundColor = "white";
     try {
-        const response = await fetch('questions.json');
+        const response = await fetch('americas.json');
         questions = await response.json();
         showCurrentHint();
 
