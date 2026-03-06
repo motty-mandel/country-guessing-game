@@ -58,7 +58,8 @@ body {
 }
 
 .singleOrMulti .single,
-.singleOrMulti .multi {
+.singleOrMulti .multi,
+.settings .settings-btn {
     padding: 10px;
     box-shadow: 2px 2px 5px rgb(184, 184, 184), -2px -2px 5px rgb(184, 184, 184);
     margin: 10px;
@@ -69,11 +70,56 @@ body {
 }
 
 .singleOrMulti .single:hover,
-.singleOrMulti .multi:hover {
+.singleOrMulti .multi:hover,
+.settings .settings-btn:hover {
     padding: 10px;
     box-shadow: none;
     margin: 10px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+    transform: scale(0.95);
+}
+
+/* ----------------------settings---------------------------- */
+
+.settings-window {
+    display: none;
+    padding: 20px;
+    margin: 20px 0 70px 0;
+    text-align: center;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 38%),
+            rgba(255, 255, 255, 38%));
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 38%);
+}
+
+.settings-window button {
+    font-family: custom-font;
+    color: #1f2937;
+    font-size: 1.5rem;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(184, 184, 184), -2px -2px 5px rgb(184, 184, 184);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+    background-color: aquamarine;
+}
+
+.settings-window button:hover {
+    font-family: custom-font;
+    color: #1f2937;
+    font-size: 1.5rem;
+    padding: 10px;
+    box-shadow: none;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
     cursor: pointer;
     transition: ease-in-out 150ms;
     transform: scale(0.95);

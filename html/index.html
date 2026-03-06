@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single or Multi</title>
-    <link rel="icon" href="./font/globe-icon.png">
-    <link rel="stylesheet" href="./css/homepage.css">
-    <link rel="stylesheet" href="./css/homepageMobile.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="../font/globe-icon.png">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/indexMobile.css">
+    <link rel="manifest" href="../manifest.json">
 </head>
 
 <body>
@@ -39,19 +39,44 @@
             </div>
         </div>
 
+        <div class="settings">
+            <div class="settings-btn" onclick="showSettings()">
+                <h3>Settings</h3>
+            </div>
+        </div>
 
+
+    </div>
+
+    <div class="settings-window">
+        <h3>These are the settings</h3>
+        <button onclick="closeSettings()">Close</button>
     </div>
 
 
 
 
     <script>
+        const mostHighContainer = document.querySelector('.mostHighContainer');
+        const settingsBtn = document.querySelector('.settings-btn');
+        const settingsWindow = document.querySelector('.settings-window');
+
         function singlePlayer() {
             window.location.href = 'singleplayer.html'
         }
 
         function multiPlayer() {
             window.location.href = 'multiplayer.html'
+        }
+
+        function showSettings() {
+            settingsWindow.style.display = "block";
+            mostHighContainer.style.display = "none";
+        }
+
+        function closeSettings() {
+            settingsWindow.style.display = "none";
+            mostHighContainer.style.display = "flex";
         }
     </script>
 
