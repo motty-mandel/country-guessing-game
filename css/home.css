@@ -28,11 +28,14 @@ body {
 }
 
 .upper-div .high-score {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.upper-div .made-by {
-    margin-right: 10px;
+.upper-div .back {
+    margin-left: 10px;
+    & > h1{
+        cursor: pointer;
+    }
 }
 
 .main-div {
