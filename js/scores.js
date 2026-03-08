@@ -1,3 +1,7 @@
+// function goBack() {
+//     console.log(window.navigator)
+// }
+
 // Initialize the game
 async function initGame() {
     const scoreList = document.getElementById('score-list');
@@ -21,8 +25,8 @@ async function initGame() {
 function startTimer5() {
     window.location.href = 'rounds.html'
     const rounds = document.getElementById('rounds5').value;
-    localStorage.removeItem(rounds);
-    localStorage.setItem('rounds', rounds);
+    // localStorage.removeItem('rounds');
+    localStorage.setItem('rounds', 5);
 }
 
 function startTimer10() {

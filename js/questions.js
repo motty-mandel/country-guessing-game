@@ -16,7 +16,7 @@ async function loadQuestions() {
 
     // border.style.backgroundColor = "white";
     try {
-        const response = await fetch('americas.json');
+        const response = await fetch('../americas.json');
         questions = await response.json();
         showCurrentHint();
 
@@ -135,12 +135,12 @@ function getName() {
 
             localStorage.setItem('userData', JSON.stringify(storedData));
 
-            window.location.href = 'index.html';
+            window.location.href = '../html/singleplayer.html';
         }
     });
 
     document.getElementById('skipName').addEventListener('click', function () {
-        window.location.href = 'index.html';
+        window.location.href = '../html/singleplayer.html';
     })
 }
 
