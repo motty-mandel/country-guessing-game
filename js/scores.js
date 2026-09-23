@@ -30,14 +30,16 @@ async function initGame() {
     }
 }
 
-function startTimer5() {
-    window.location.href = 'rounds.html'
+function startTimer5(region) {
     localStorage.setItem('rounds', 5);
+    localStorage.setItem('region', region);
+    window.location.href = 'rounds.html';
 }
 
-function startTimer1() {
-    window.location.href = 'rounds.html'
+function startTimer1(region) {
     localStorage.setItem('rounds', 1);
+    localStorage.setItem('region', region);
+    window.location.href = 'rounds.html';
 }
 
 function goBack() {

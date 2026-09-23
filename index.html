@@ -39,6 +39,8 @@
             </div>
         </div>
 
+        <audio id="mouseClick" src="./sounds/mouseClick.mp3"></audio>
+
         <div class="settings">
             <div class="settings-btn" onclick="showSettings()">
                 <h3>Settings</h3>
@@ -60,24 +62,31 @@
         const mostHighContainer = document.querySelector('.mostHighContainer');
         const settingsBtn = document.querySelector('.settings-btn');
         const settingsWindow = document.querySelector('.settings-window');
+        const audio = document.getElementById('mouseClick');
 
         function singlePlayer() {
             window.location.href = './html/singleplayer.html';
-        }
+        };
 
         function multiPlayer() {
             window.location.href = './html/multiplayer.html';
-        }
+        };
 
         function showSettings() {
             settingsWindow.style.display = "block";
             mostHighContainer.style.display = "none";
-        }
+        };
 
         function closeSettings() {
             settingsWindow.style.display = "none";
             mostHighContainer.style.display = "flex";
-        }
+        };
+
+        // settingsBtn.addEventListener('click', () => {
+        //     audio.play();
+        // })
+
+
     </script>
 
 </body>

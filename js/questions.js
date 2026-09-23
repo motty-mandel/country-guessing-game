@@ -2,6 +2,12 @@ let questions = [];
 let score = 0;
 let currentQuestion;
 let roundsLength = parseInt(localStorage.getItem('rounds'));
+const questionFiles = {
+    americas: '../americas.json',
+    europe: '../europe.json',
+    africa: '../africa.json',
+    asia: '../asia.json'
+};
 
 const correct = document.getElementById('correct');
 const incorrect = document.getElementById('incorrect');
@@ -16,7 +22,9 @@ async function loadQuestions() {
 
     // border.style.backgroundColor = "white";
     try {
-        const response = await fetch('../americas.json');
+        const region = localStorage.getItem('region') || 'americas';
+        const questionFile = questionFiles[region] || questionFiles.americas;
+        const response = await fetch(questionFile);
         questions = await response.json();
         showCurrentHint();
 
@@ -123,18 +131,15 @@ function getName() {
         }
     });
 
-    document.getElementById('enterName').addEventListener('click', function () {
 
+    document.getElementById('enterName').addEventListener('click', function () {
         if (name.value === "") {
             alert('Please enter in a name!');
             return;
         } else {
             const storedData = JSON.parse(localStorage.getItem('userData')) || [];
-
             storedData.push(`${name.value}: ${score}`);
-
             localStorage.setItem('userData', JSON.stringify(storedData));
-
             window.location.href = '../html/singleplayer.html';
         }
     });

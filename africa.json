@@ -1,0 +1,272 @@
+[
+  {
+    "hint": "A - A",
+    "answer": "algeria",
+    "hint2": ""
+  },
+  {
+    "hint": "A - A",
+    "answer": "angola",
+    "hint2": ""
+  },
+  {
+    "hint": "B - N",
+    "answer": "benin",
+    "hint2": ""
+  },
+  {
+    "hint": "B - A",
+    "answer": "botswana",
+    "hint2": ""
+  },
+  {
+    "hint": "B - O",
+    "answer": "burkina faso",
+    "hint2": ""
+  },
+  {
+    "hint": "B - I",
+    "answer": "burundi",
+    "hint2": ""
+  },
+  {
+    "hint": "C - O",
+    "answer": "cabo verde",
+    "hint2": ""
+  },
+  {
+    "hint": "C - N",
+    "answer": "cameroon",
+    "hint2": ""
+  },
+  {
+    "hint": "C - N A - N R - C",
+    "answer": "central african republic",
+    "hint2": ""
+  },
+  {
+    "hint": "C - D",
+    "answer": "chad",
+    "hint2": ""
+  },
+  {
+    "hint": "C - S",
+    "answer": "comoros",
+    "hint2": ""
+  },
+  {
+    "hint": "C - O",
+    "answer": "congo",
+    "hint2": ""
+  },
+  {
+    "hint": "D - C O T C",
+    "answer": "democratic republic of the congo",
+    "hint2": ""
+  },
+  {
+    "hint": "D - I",
+    "answer": "djibouti",
+    "hint2": ""
+  },
+  {
+    "hint": "E - T",
+    "answer": "egypt",
+    "hint2": ""
+  },
+  {
+    "hint": "E - A G - A",
+    "answer": "equatorial guinea",
+    "hint2": ""
+  },
+  {
+    "hint": "E - A",
+    "answer": "eritrea",
+    "hint2": ""
+  },
+  {
+    "hint": "E - I",
+    "answer": "eswatini",
+    "hint2": ""
+  },
+  {
+    "hint": "E - A",
+    "answer": "ethiopia",
+    "hint2": ""
+  },
+  {
+    "hint": "G - N",
+    "answer": "gabon",
+    "hint2": ""
+  },
+  {
+    "hint": "G - A",
+    "answer": "gambia",
+    "hint2": ""
+  },
+  {
+    "hint": "G - A",
+    "answer": "ghana",
+    "hint2": ""
+  },
+  {
+    "hint": "G - A",
+    "answer": "guinea",
+    "hint2": ""
+  },
+  {
+    "hint": "G - A B - U",
+    "answer": "guinea-bissau",
+    "hint2": ""
+  },
+  {
+    "hint": "I - Y C - T",
+    "answer": "ivory coast",
+    "hint2": ""
+  },
+  {
+    "hint": "K - A",
+    "answer": "kenya",
+    "hint2": ""
+  },
+  {
+    "hint": "L - O",
+    "answer": "lesotho",
+    "hint2": ""
+  },
+  {
+    "hint": "L - A",
+    "answer": "liberia",
+    "hint2": ""
+  },
+  {
+    "hint": "L - A",
+    "answer": "libya",
+    "hint2": ""
+  },
+  {
+    "hint": "M - R",
+    "answer": "madagascar",
+    "hint2": ""
+  },
+  {
+    "hint": "M - I",
+    "answer": "malawi",
+    "hint2": ""
+  },
+  {
+    "hint": "M - I",
+    "answer": "mali",
+    "hint2": ""
+  },
+  {
+    "hint": "M - A",
+    "answer": "mauritania",
+    "hint2": ""
+  },
+  {
+    "hint": "M - S",
+    "answer": "mauritius",
+    "hint2": ""
+  },
+  {
+    "hint": "M - O",
+    "answer": "morocco",
+    "hint2": ""
+  },
+  {
+    "hint": "M - E",
+    "answer": "mozambique",
+    "hint2": ""
+  },
+  {
+    "hint": "N - A",
+    "answer": "namibia",
+    "hint2": ""
+  },
+  {
+    "hint": "N - R",
+    "answer": "niger",
+    "hint2": ""
+  },
+  {
+    "hint": "N - A",
+    "answer": "nigeria",
+    "hint2": ""
+  },
+  {
+    "hint": "R - A",
+    "answer": "rwanda",
+    "hint2": ""
+  },
+  {
+    "hint": "S - O T A P",
+    "answer": "sao tome and principe",
+    "hint2": ""
+  },
+  {
+    "hint": "S - L",
+    "answer": "senegal",
+    "hint2": ""
+  },
+  {
+    "hint": "S - S",
+    "answer": "seychelles",
+    "hint2": ""
+  },
+  {
+    "hint": "S - A L - E",
+    "answer": "sierra leone",
+    "hint2": ""
+  },
+  {
+    "hint": "S - A",
+    "answer": "somalia",
+    "hint2": ""
+  },
+  {
+    "hint": "S - H A - A",
+    "answer": "south africa",
+    "hint2": ""
+  },
+  {
+    "hint": "S - H S - N",
+    "answer": "south sudan",
+    "hint2": ""
+  },
+  {
+    "hint": "S - N",
+    "answer": "sudan",
+    "hint2": ""
+  },
+  {
+    "hint": "T - A",
+    "answer": "tanzania",
+    "hint2": ""
+  },
+  {
+    "hint": "T - O",
+    "answer": "togo",
+    "hint2": ""
+  },
+  {
+    "hint": "T - A",
+    "answer": "tunisia",
+    "hint2": ""
+  },
+  {
+    "hint": "U - A",
+    "answer": "uganda",
+    "hint2": ""
+  },
+  {
+    "hint": "Z - A",
+    "answer": "zambia",
+    "hint2": ""
+  },
+  {
+    "hint": "Z - E",
+    "answer": "zimbabwe",
+    "hint2": ""
+  }
+]
